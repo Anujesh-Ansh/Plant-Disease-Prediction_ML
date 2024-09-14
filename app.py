@@ -10,7 +10,7 @@ model_path = '/Users/anujeshansh/Downloads/Plant_disease_prediction/trained_plan
 cnn = tf.keras.models.load_model(model_path)
 
 # Define class names corresponding to your model's output
-class_names = [
+class_names = [ 
     'Apple Scab', 'Apple Black Rot', 'Cedar Apple Rust', 'Healthy Apple',
     'Healthy Blueberry', 'Cherry Powdery Mildew', 'Healthy Cherry', 'Corn Gray Leaf Spot',
     'Corn Common Rust', 'Corn Northern Leaf Blight', 'Healthy Corn', 'Grape Black Rot',
